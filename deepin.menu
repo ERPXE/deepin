@@ -1,0 +1,14 @@
+MENU BEGIN DEEPIN
+MENU LABEL ^Deepin 12.06
+# ------====> Include Menu Settings <====------
+MENU INCLUDE er/menuinc/header.module
+
+# ------====> Set Specific Page Settings <====------
+MENU BACKGROUND er/plugins/deepin/deepin.png
+
+MENU INCLUDE er/plugins/deepin/i386/deepinmain.menu
+MENU INCLUDE er/plugins/deepin/x86_64/deepinmain.menu
+
+# ------====> Back <====------
+MENU INCLUDE er/menu/shared/menu-back.module
+MENU END

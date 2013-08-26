@@ -1,0 +1,16 @@
+.:
+deepin.menu
+deepin.png
+filelist.txt
+i386
+x86_64
+
+./i386:
+deepinmain.menu
+initrd.lz
+vmlinuz
+
+./x86_64:
+deepinmain.menu
+initrd.lz
+vmlinuz
